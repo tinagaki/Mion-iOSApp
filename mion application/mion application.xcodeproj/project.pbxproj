@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311AF6641C67745000E36D58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF6631C67745000E36D58 /* AppDelegate.swift */; };
+		311AF6661C67745000E36D58 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF6651C67745000E36D58 /* FirstViewController.swift */; };
+		311AF6681C67745000E36D58 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF6671C67745000E36D58 /* SecondViewController.swift */; };
+		311AF66B1C67745000E36D58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311AF6691C67745000E36D58 /* Main.storyboard */; };
+		311AF66D1C67745100E36D58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 311AF66C1C67745100E36D58 /* Assets.xcassets */; };
+		311AF6701C67745100E36D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311AF66E1C67745100E36D58 /* LaunchScreen.storyboard */; };
+		311AF67B1C67745100E36D58 /* mion_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF67A1C67745100E36D58 /* mion_applicationTests.swift */; };
+		311AF6861C67745100E36D58 /* mion_applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF6851C67745100E36D58 /* mion_applicationUITests.swift */; };
+		311AF6981C67816300E36D58 /* MionWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF6971C67816300E36D58 /* MionWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		311AF6771C67745100E36D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311AF6581C67745000E36D58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311AF65F1C67745000E36D58;
+			remoteInfo = "mion application";
+		};
+		311AF6821C67745100E36D58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 311AF6581C67745000E36D58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 311AF65F1C67745000E36D58;
+			remoteInfo = "mion application";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		311AF6601C67745000E36D58 /* mion application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mion application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311AF6631C67745000E36D58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		311AF6651C67745000E36D58 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		311AF6671C67745000E36D58 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		311AF66A1C67745000E36D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		311AF66C1C67745100E36D58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		311AF66F1C67745100E36D58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		311AF6711C67745100E36D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311AF6761C67745100E36D58 /* mion applicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mion applicationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311AF67A1C67745100E36D58 /* mion_applicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mion_applicationTests.swift; sourceTree = "<group>"; };
+		311AF67C1C67745100E36D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311AF6811C67745100E36D58 /* mion applicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mion applicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		311AF6851C67745100E36D58 /* mion_applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mion_applicationUITests.swift; sourceTree = "<group>"; };
+		311AF6871C67745100E36D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		311AF6971C67816300E36D58 /* MionWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MionWebViewController.swift; path = WebViewControllor/MionWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		311AF65D1C67745000E36D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311AF6731C67745100E36D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311AF67E1C67745100E36D58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311AF6571C67745000E36D58 = {
+			isa = PBXGroup;
+			children = (
+				311AF6621C67745000E36D58 /* mion application */,
+				311AF6791C67745100E36D58 /* mion applicationTests */,
+				311AF6841C67745100E36D58 /* mion applicationUITests */,
+				311AF6611C67745000E36D58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		311AF6611C67745000E36D58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				311AF6601C67745000E36D58 /* mion application.app */,
+				311AF6761C67745100E36D58 /* mion applicationTests.xctest */,
+				311AF6811C67745100E36D58 /* mion applicationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		311AF6621C67745000E36D58 /* mion application */ = {
+			isa = PBXGroup;
+			children = (
+				311AF6631C67745000E36D58 /* AppDelegate.swift */,
+				311AF6651C67745000E36D58 /* FirstViewController.swift */,
+				311AF6671C67745000E36D58 /* SecondViewController.swift */,
+				311AF6691C67745000E36D58 /* Main.storyboard */,
+				311AF66C1C67745100E36D58 /* Assets.xcassets */,
+				311AF66E1C67745100E36D58 /* LaunchScreen.storyboard */,
+				311AF6711C67745100E36D58 /* Info.plist */,
+				311AF6971C67816300E36D58 /* MionWebViewController.swift */,
+			);
+			path = "mion application";
+			sourceTree = "<group>";
+		};
+		311AF6791C67745100E36D58 /* mion applicationTests */ = {
+			isa = PBXGroup;
+			children = (
+				311AF67A1C67745100E36D58 /* mion_applicationTests.swift */,
+				311AF67C1C67745100E36D58 /* Info.plist */,
+			);
+			path = "mion applicationTests";
+			sourceTree = "<group>";
+		};
+		311AF6841C67745100E36D58 /* mion applicationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				311AF6851C67745100E36D58 /* mion_applicationUITests.swift */,
+				311AF6871C67745100E36D58 /* Info.plist */,
+			);
+			path = "mion applicationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		311AF65F1C67745000E36D58 /* mion application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311AF68A1C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion application" */;
+			buildPhases = (
+				311AF65C1C67745000E36D58 /* Sources */,
+				311AF65D1C67745000E36D58 /* Frameworks */,
+				311AF65E1C67745000E36D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mion application";
+			productName = "mion application";
+			productReference = 311AF6601C67745000E36D58 /* mion application.app */;
+			productType = "com.apple.product-type.application";
+		};
+		311AF6751C67745100E36D58 /* mion applicationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311AF68D1C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion applicationTests" */;
+			buildPhases = (
+				311AF6721C67745100E36D58 /* Sources */,
+				311AF6731C67745100E36D58 /* Frameworks */,
+				311AF6741C67745100E36D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311AF6781C67745100E36D58 /* PBXTargetDependency */,
+			);
+			name = "mion applicationTests";
+			productName = "mion applicationTests";
+			productReference = 311AF6761C67745100E36D58 /* mion applicationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		311AF6801C67745100E36D58 /* mion applicationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 311AF6901C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion applicationUITests" */;
+			buildPhases = (
+				311AF67D1C67745100E36D58 /* Sources */,
+				311AF67E1C67745100E36D58 /* Frameworks */,
+				311AF67F1C67745100E36D58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				311AF6831C67745100E36D58 /* PBXTargetDependency */,
+			);
+			name = "mion applicationUITests";
+			productName = "mion applicationUITests";
+			productReference = 311AF6811C67745100E36D58 /* mion applicationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		311AF6581C67745000E36D58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tomohiro Inagaki";
+				TargetAttributes = {
+					311AF65F1C67745000E36D58 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					311AF6751C67745100E36D58 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 311AF65F1C67745000E36D58;
+					};
+					311AF6801C67745100E36D58 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 311AF65F1C67745000E36D58;
+					};
+				};
+			};
+			buildConfigurationList = 311AF65B1C67745000E36D58 /* Build configuration list for PBXProject "mion application" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 311AF6571C67745000E36D58;
+			productRefGroup = 311AF6611C67745000E36D58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				311AF65F1C67745000E36D58 /* mion application */,
+				311AF6751C67745100E36D58 /* mion applicationTests */,
+				311AF6801C67745100E36D58 /* mion applicationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311AF65E1C67745000E36D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311AF6701C67745100E36D58 /* LaunchScreen.storyboard in Resources */,
+				311AF66D1C67745100E36D58 /* Assets.xcassets in Resources */,
+				311AF66B1C67745000E36D58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311AF6741C67745100E36D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311AF67F1C67745100E36D58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		311AF65C1C67745000E36D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311AF6681C67745000E36D58 /* SecondViewController.swift in Sources */,
+				311AF6641C67745000E36D58 /* AppDelegate.swift in Sources */,
+				311AF6981C67816300E36D58 /* MionWebViewController.swift in Sources */,
+				311AF6661C67745000E36D58 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311AF6721C67745100E36D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311AF67B1C67745100E36D58 /* mion_applicationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		311AF67D1C67745100E36D58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311AF6861C67745100E36D58 /* mion_applicationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		311AF6781C67745100E36D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311AF65F1C67745000E36D58 /* mion application */;
+			targetProxy = 311AF6771C67745100E36D58 /* PBXContainerItemProxy */;
+		};
+		311AF6831C67745100E36D58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 311AF65F1C67745000E36D58 /* mion application */;
+			targetProxy = 311AF6821C67745100E36D58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		311AF6691C67745000E36D58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311AF66A1C67745000E36D58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		311AF66E1C67745100E36D58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				311AF66F1C67745100E36D58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		311AF6881C67745100E36D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		311AF6891C67745100E36D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		311AF68B1C67745100E36D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mion application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.mion-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		311AF68C1C67745100E36D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "mion application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.mion-application";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		311AF68E1C67745100E36D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "mion applicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.mion-applicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mion application.app/mion application";
+			};
+			name = Debug;
+		};
+		311AF68F1C67745100E36D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "mion applicationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.mion-applicationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mion application.app/mion application";
+			};
+			name = Release;
+		};
+		311AF6911C67745100E36D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "mion applicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.mion-applicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mion application";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		311AF6921C67745100E36D58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "mion applicationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.mion-applicationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "mion application";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		311AF65B1C67745000E36D58 /* Build configuration list for PBXProject "mion application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311AF6881C67745100E36D58 /* Debug */,
+				311AF6891C67745100E36D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		311AF68A1C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311AF68B1C67745100E36D58 /* Debug */,
+				311AF68C1C67745100E36D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		311AF68D1C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion applicationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311AF68E1C67745100E36D58 /* Debug */,
+				311AF68F1C67745100E36D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		311AF6901C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion applicationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				311AF6911C67745100E36D58 /* Debug */,
+				311AF6921C67745100E36D58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 311AF6581C67745000E36D58 /* Project object */;
+}
