@@ -16,6 +16,8 @@
 		311AF67B1C67745100E36D58 /* mion_applicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF67A1C67745100E36D58 /* mion_applicationTests.swift */; };
 		311AF6861C67745100E36D58 /* mion_applicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF6851C67745100E36D58 /* mion_applicationUITests.swift */; };
 		311AF6981C67816300E36D58 /* MionWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311AF6971C67816300E36D58 /* MionWebViewController.swift */; };
+		31DB370E1C70595100F4AA88 /* settings-gray-icon_32x32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 31DB370D1C70595100F4AA88 /* settings-gray-icon_32x32px.png */; };
+		31DB37101C70596300F4AA88 /* settings-black-icon_32x32px.png in Resources */ = {isa = PBXBuildFile; fileRef = 31DB370F1C70596300F4AA88 /* settings-black-icon_32x32px.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		311AF6851C67745100E36D58 /* mion_applicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mion_applicationUITests.swift; sourceTree = "<group>"; };
 		311AF6871C67745100E36D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		311AF6971C67816300E36D58 /* MionWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MionWebViewController.swift; path = WebViewControllor/MionWebViewController.swift; sourceTree = "<group>"; };
+		31DB370D1C70595100F4AA88 /* settings-gray-icon_32x32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings-gray-icon_32x32px.png"; path = "../../../free icon/free-outline-icons/PNG_32x32_gray/settings-gray-icon_32x32px.png"; sourceTree = "<group>"; };
+		31DB370F1C70596300F4AA88 /* settings-black-icon_32x32px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "settings-black-icon_32x32px.png"; path = "../../../free icon/free-outline-icons/PNG_32x32_black/settings-black-icon_32x32px.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		311AF6621C67745000E36D58 /* mion application */ = {
 			isa = PBXGroup;
 			children = (
+				31DB370F1C70596300F4AA88 /* settings-black-icon_32x32px.png */,
+				31DB370D1C70595100F4AA88 /* settings-gray-icon_32x32px.png */,
 				311AF6631C67745000E36D58 /* AppDelegate.swift */,
 				311AF6651C67745000E36D58 /* FirstViewController.swift */,
 				311AF6671C67745000E36D58 /* SecondViewController.swift */,
@@ -236,8 +242,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				311AF6701C67745100E36D58 /* LaunchScreen.storyboard in Resources */,
+				31DB370E1C70595100F4AA88 /* settings-gray-icon_32x32px.png in Resources */,
 				311AF66D1C67745100E36D58 /* Assets.xcassets in Resources */,
 				311AF66B1C67745000E36D58 /* Main.storyboard in Resources */,
+				31DB37101C70596300F4AA88 /* settings-black-icon_32x32px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +498,7 @@
 				311AF68C1C67745100E36D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311AF68D1C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion applicationTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +507,7 @@
 				311AF68F1C67745100E36D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		311AF6901C67745100E36D58 /* Build configuration list for PBXNativeTarget "mion applicationUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +516,7 @@
 				311AF6921C67745100E36D58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
